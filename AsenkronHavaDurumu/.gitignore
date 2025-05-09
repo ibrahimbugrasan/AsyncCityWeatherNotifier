@@ -1,0 +1,42 @@
+# Visual Studio için .gitignore (kanka için hazır)
+
+# Visual Studio geçici dosyaları ve klasörleri
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build çıktı dosyaları
+bin/
+obj/
+
+# Paket yönetimi (NuGet)
+*.nupkg
+packages/
+
+# ReSharper / Rider / VS Code / Test sonuçları
+_ReSharper*/
+*.DotSettings.user
+TestResults/
+*.vscode/
+
+# Diğer gereksiz dosyalar
+*.log
+*.cache
+*.dbmdl
+*.pdb
+
+# Windows sistem dosyaları
+Thumbs.db
+Desktop.ini
+
+# Publish klasörü (deploy çıktısı)
+publish/
+
+# Rider ve diğer JetBrains IDE’leri (gerekirse)
+.idea/
+
+# SQL Server veritabanı dosyaları (gerekirse)
+*.mdf
+*.ldf
